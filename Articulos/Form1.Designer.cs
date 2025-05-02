@@ -29,33 +29,57 @@
         private void InitializeComponent()
         {
             dataGridView1 = new DataGridView();
+            lblTotal = new Label();
+            Btn_Calcular = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(78, 108);
+            dataGridView1.Location = new Point(80, 28);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(621, 256);
             dataGridView1.TabIndex = 0;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // lblTotal
+            // 
+            lblTotal.AutoSize = true;
+            lblTotal.Location = new Point(603, 334);
+            lblTotal.Name = "lblTotal";
+            lblTotal.Size = new Size(35, 15);
+            lblTotal.TabIndex = 1;
+            lblTotal.Text = "Total:\r\n";
+            // 
+            // Btn_Calcular
+            // 
+            Btn_Calcular.Location = new Point(603, 308);
+            Btn_Calcular.Name = "Btn_Calcular";
+            Btn_Calcular.Size = new Size(98, 23);
+            Btn_Calcular.TabIndex = 2;
+            Btn_Calcular.Text = "Calcular total\r\n";
+            Btn_Calcular.UseVisualStyleBackColor = true;
+            Btn_Calcular.Click += btn_calcular_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(Btn_Calcular);
+            Controls.Add(lblTotal);
             Controls.Add(dataGridView1);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load_1;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private DataGridView dataGridView1;
+        private Label lblTotal;
+        private Button Btn_Calcular;
     }
 }

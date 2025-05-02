@@ -32,3 +32,4 @@ C:\Users\usuario\source\repos\Articulos\Articulos\obj\Debug\net8.0-windows\refin
 C:\Users\usuario\source\repos\Articulos\Articulos\obj\Debug\net8.0-windows\Articulos.pdb
 C:\Users\usuario\source\repos\Articulos\Articulos\obj\Debug\net8.0-windows\Articulos.genruntimeconfig.cache
 C:\Users\usuario\source\repos\Articulos\Articulos\obj\Debug\net8.0-windows\ref\Articulos.dll
+C:\Users\usuario\source\repos\Articulos\Articulos\obj\Debug\net8.0-windows\Articulos.sourcelink.json
